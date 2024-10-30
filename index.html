@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Kamu - The Taste of Freshness</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 80px 0;
+    }
+    .menu-item img {
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-red-700 text-white p-4 flex justify-between items-center">
+    <div class="text-2xl font-bold">Pizza Kamu</div>
+    <nav>
+      <a href="#menu" class="mx-4 hover:underline">Menu</a>
+      <a href="#testimonials" class="mx-4 hover:underline">Testimonials</a>
+      <a href="#contact" class="mx-4 hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero relative text-center text-white flex items-center justify-center">
+    <div class="overlay w-full h-full flex flex-col items-center justify-center">
+      <h1 class="text-5xl font-bold mb-4">The Best Pizza in Town!</h1>
+      <p class="mb-6 text-lg">Freshly baked with love and quality ingredients.</p>
+      <a href="#menu" class="bg-yellow-500 px-8 py-3 rounded-full text-xl font-semibold hover:bg-yellow-600">Order Now</a>
+    </div>
+  </section>
+
+  <!-- Menu Highlights Section -->
+  <section id="menu" class="py-16 bg-gray-100 text-center">
+    <h2 class="text-4xl font-bold mb-8">Our Menu Highlights</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <div class="menu-item max-w-xs text-left">
+        <img src="https://images.unsplash.com/photo-1571091655789-5696f2f6baff" alt="Margherita Pizza" class="w-full">
+        <h3 class="text-2xl font-bold mt-4">Margherita</h3>
+        <p class="mt-2 text-gray-600">A classic delight with mozzarella cheese and fresh basil.</p>
+        <p class="text-xl font-bold mt-2">$8.99</p>
+      </div>
+      <div class="menu-item max-w-xs text-left">
+        <img src="https://images.unsplash.com/photo-1601924571602-c4e4f0d86929" alt="Pepperoni Pizza" class="w-full">
+        <h3 class="text-2xl font-bold mt-4">Pepperoni</h3>
+        <p class="mt-2 text-gray-600">Loaded with spicy pepperoni and gooey cheese.</p>
+        <p class="text-xl font-bold mt-2">$10.99</p>
+      </div>
+      <div class="menu-item max-w-xs text-left">
+        <img src="https://images.unsplash.com/photo-1601924566838-4e8b7c30b7f6" alt="Veggie Special Pizza" class="w-full">
+        <h3 class="text-2xl font-bold mt-4">Veggie Special</h3>
+        <p class="mt-2 text-gray-600">Packed with fresh veggies for a healthy twist.</p>
+        <p class="text-xl font-bold mt-2">$9.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 bg-white text-center">
+    <h2 class="text-4xl font-bold mb-8">What Our Customers Say</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <div class="max-w-md bg-gray-100 p-6 rounded-lg">
+        <p class="text-gray-700">"The best pizza I’ve ever had! Fresh ingredients, perfect crust. Highly recommend!"</p>
+        <h3 class="font-bold mt-4">- Emily W.</h3>
+      </div>
+      <div class="max-w-md bg-gray-100 p-6 rounded-lg">
+        <p class="text-gray-700">"Amazing flavors, great service, and lovely ambiance. Pizza Kamu is my new favorite!"</p>
+        <h3 class="font-bold mt-4">- David T.</h3>
+      </div>
+      <div class="max-w-md bg-gray-100 p-6 rounded-lg">
+        <p class="text-gray-700">"We love their veggie pizza! It’s fresh, delicious, and absolutely worth it."</p>
+        <h3 class="font-bold mt-4">- Sarah L.</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-800 text-white text-center">
+    <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+    <p class="mb-4">📍 123 Pizza Lane, Pizzatown, NY</p>
+    <p class="mb-4">📞 (123) 456-7890</p>
+    <p>Email us at <a href="mailto:info@pizzakamu.com" class="text-yellow-400 underline">info@pizzakamu.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-4 text-center">
+    <p>© 2024 Pizza Kamu. All Rights Reserved.</p>
+    <div class="social-icons mt-4">
+      <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
