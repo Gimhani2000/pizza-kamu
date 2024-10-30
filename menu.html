@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Pizza Kamu</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+    }
+    .menu-item img {
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-red-700 text-white p-4 flex justify-between items-center">
+    <div class="text-2xl font-bold">Pizza Kamu</div>
+    <nav>
+      <a href="index.html" class="mx-4 hover:underline">Home</a>
+      <a href="about.html" class="mx-4 hover:underline">About Us</a>
+      <a href="menu.html" class="mx-4 hover:underline">Menu</a>
+      <a href="contact.html" class="mx-4 hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="py-16 bg-gray-100 text-center">
+    <h1 class="text-4xl font-bold mb-8">Our Menu</h1>
+    <p class="max-w-2xl mx-auto text-gray-700 mb-8">Explore our selection of delicious pizzas, sides, and desserts. We use the freshest ingredients to bring you an unforgettable dining experience.</p>
+
+    <!-- Classic Pizzas Section -->
+    <h2 class="text-3xl font-bold mb-6">Classic Pizzas</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <!-- Margherita -->
+      <div class="menu-item max-w-xs text-center">
+        <img src="https://images.unsplash.com/photo-1601924582978-47d3d496d0f6" alt="Margherita Pizza" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-2xl font-bold mt-4">Margherita</h3>
+        <p class="text-gray-600 mt-2">Tomato, mozzarella, fresh basil</p>
+        <p class="text-lg font-semibold text-red-600 mt-2">$10.99</p>
+      </div>
+      <!-- Pepperoni -->
+      <div class="menu-item max-w-xs text-center">
+        <img src="https://images.unsplash.com/photo-1601933477587-1fd8b7f8c9b8" alt="Pepperoni Pizza" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-2xl font-bold mt-4">Pepperoni</h3>
+        <p class="text-gray-600 mt-2">Classic pepperoni, mozzarella</p>
+        <p class="text-lg font-semibold text-red-600 mt-2">$12.99</p>
+      </div>
+      <!-- Veggie -->
+      <div class="menu-item max-w-xs text-center">
+        <img src="https://images.unsplash.com/photo-1617469428752-ef5ae9de215e" alt="Veggie Pizza" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-2xl font-bold mt-4">Veggie</h3>
+        <p class="text-gray-600 mt-2">Bell peppers, olives, onions, mushrooms</p>
+        <p class="text-lg font-semibold text-red-600 mt-2">$11.99</p>
+      </div>
+    </div>
+
+    <!-- Specialty Pizzas Section -->
+    <h2 class="text-3xl font-bold mt-16 mb-6">Specialty Pizzas</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <!-- BBQ Chicken -->
+      <div class="menu-item max-w-xs text-center">
+        <img src="https://images.unsplash.com/photo-1594007653645-0c08b80a2822" alt="BBQ Chicken Pizza" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-2xl font-bold mt-4">BBQ Chicken</h3>
+        <p class="text-gray-600 mt-2">Grilled chicken, BBQ sauce, red onions</p>
+        <p class="text-lg font-semibold text-red-600 mt-2">$13.99</p>
+      </div>
+      <!-- Hawaiian -->
+      <div class="menu-item max-w-xs text-center">
+        <img src="https://images.unsplash.com/photo-1565299262354-542dc6d80b9a" alt="Hawaiian Pizza" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-2xl font-bold mt-4">Hawaiian</h3>
+        <p class="text-gray-600 mt-2">Ham, pineapple, mozzarella</p>
+        <p class="text-lg font-semibold text-red-600 mt-2">$12.49</p>
+      </div>
+      <!-- Meat Lovers -->
+      <div class="menu-item max-w-xs text-center">
+        <img src="https://images.unsplash.com/photo-1606227686603-fbc8a9fce33e" alt="Meat Lovers Pizza" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-2xl font-bold mt-4">Meat Lovers</h3>
+        <p class="text-gray-600 mt-2">Pepperoni, sausage, bacon, ham</p>
+        <p class="text-lg font-semibold text-red-600 mt-2">$14.99</p>
+      </div>
+    </div>
+
+    <!-- Sides Section -->
+    <h2 class="text-3xl font-bold mt-16 mb-6">Sides</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <!-- Garlic Bread -->
+      <div class="menu-item max-w-xs text-center">
+        <img src="https://images.unsplash.com/photo-1622040895649-4b1735b8caa6" alt="Garlic Bread" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-2xl font-bold mt-4">Garlic Bread</h3>
+        <p class="text-gray-600 mt-2">Crispy garlic bread with herbs</p>
+        <p class="text-lg font-semibold text-red-600 mt-2">$5.99</p>
+      </div>
+      <!-- Mozzarella Sticks -->
+      <div class="menu-item max-w-xs text-center">
+        <img src="https://images.unsplash.com/photo-1554890057-4f5a7a6a4f7c" alt="Mozzarella Sticks" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="text-2xl font-bold mt-4">Mozzarella Sticks</h3>
+        <p class="text-gray-600 mt-2">Crispy fried mozzarella sticks</p>
+        <p class="text-lg font-semibold text-red-600 mt-2">$6.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-4 text-center">
+    <p>© 2024 Pizza Kamu. All Rights Reserved.</p>
+    <div class="social-icons mt-4">
+      <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
